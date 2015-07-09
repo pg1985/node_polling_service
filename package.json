@@ -1,0 +1,12 @@
+{
+	"name" : "pushup-rich-data-scraper",
+	"version": "0.0.1",
+	"description": "Retrieves data for rich web embedding",
+	"main" : "main.js",
+	"author" : "Patrick Guffey",
+	"dependencies" : {
+		"express" : "latest",
+		"request" : "latest",
+		"url"     : "latest"
+	}
+}
