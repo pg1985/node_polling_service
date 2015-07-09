@@ -1,11 +1,10 @@
 {
-	"name" : "pushup-rich-data-scraper",
+	"name" : "pushup-polling-manager",
 	"version": "0.0.1",
-	"description": "Retrieves data for rich web embedding",
+	"description": "Sends a long-poll request for retrieving data on other platforms",
 	"main" : "main.js",
 	"author" : "Patrick Guffey",
 	"dependencies" : {
-		"express" : "latest",
 		"request" : "latest",
 		"url"     : "latest"
 	}
