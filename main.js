@@ -1,7 +1,7 @@
 var request = require('request');
 var url     = require('url');
 
-var pollerManager = require('./lib/PollerManager')
+var PollerManager = require('./lib/manager/PollerManager')
 
-pollerManager = new PollerManager();
+var manager = new PollerManager(); //automatically adding it's own data
 
