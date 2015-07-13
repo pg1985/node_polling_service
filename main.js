@@ -2,7 +2,8 @@ var request = require('request');
 var url     = require('url');
 
 var PollerManager   = require('./lib/manager/PollerManager');
-var DatabaseManager = requre('./lib/utils/database');
-var MQManager       = require('./lib/utils/rabbitmq');
+var DatabaseManager = require('./lib/manager/DatabaseManager')
+var MQManager       = require('./lib/utils/Rabbitmq');
 
-var manager = new PollerManager(); //automatically adding it's own data
+var pollerManager = new PollerManager(); //automatically adding it's own data
+var databaseManager = new DatabaseManager();

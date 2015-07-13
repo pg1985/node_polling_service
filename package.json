@@ -4,6 +4,9 @@
 	"description": "Sends a long-poll request for retrieving data on other platforms",
 	"main" : "main.js",
 	"author" : "Patrick Guffey",
+	"scripts": {
+		"start": "iojs --harmony_arrow_functions main.js"
+	}
 	"dependencies": {
 		"amqp": "^0.2.4",
 		"mongodb": "^2.0.36",
@@ -14,5 +17,5 @@
     		"vantage-repl": "^1.0.1",
     		"winston": "^1.0.1",
 		"request": "latest"
-  }
+  	}
 }
