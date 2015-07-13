@@ -4,8 +4,15 @@
 	"description": "Sends a long-poll request for retrieving data on other platforms",
 	"main" : "main.js",
 	"author" : "Patrick Guffey",
-	"dependencies" : {
-		"request" : "latest",
-		"url"     : "latest"
-	}
+	"dependencies": {
+		"amqp": "^0.2.4",
+		"mongodb": "^2.0.36",
+		"q": "^1.4.1",
+		"twitter": "^1.2.5",
+    		"unirest": "^0.4.2",
+    		"vantage": "^0.3.2",
+    		"vantage-repl": "^1.0.1",
+    		"winston": "^1.0.1",
+		"request": "latest"
+  }
 }
