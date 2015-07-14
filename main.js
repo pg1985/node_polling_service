@@ -5,3 +5,4 @@ var PollerManager   = require('./lib/manager/PollerManager');
 var MQManager       = require('./lib/utils/Rabbitmq');
 
 var pollerManager = new PollerManager(); 
+var mqManager = new MQManager;
