@@ -6,7 +6,7 @@
 	"author" : "Patrick Guffey",
 	"scripts": {
 		"start": "iojs --harmony_arrow_functions main.js"
-	}
+	},
 	"dependencies": {
 		"amqp": "^0.2.4",
 		"mongodb": "^2.0.36",
